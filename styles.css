@@ -6,27 +6,35 @@ html {
 }
 
 header {
-  background: var(--color-blue-400);
-  height: 82.5px;
-}
-
-header img {
-  width: 25rem;
-}
-
-nav ul {
   display: flex;
-  justify-content: flex-end;
+  position:relative;
+  width: 1250px;
+  height:90px;
+  background: var(--color-blue-400);
+}
+
+nav {
+  margin-right: 147px;
+}
+
+header ul {
   list-style: none;
-  color: var(--color-grey-200);
-  font-family: hammersmith one;
+  display: flex;
   position: relative;
-  bottom: 85px;
+left: 5rem;
+  padding: 0;
+}
+
+ul {
+  text-align: center;
 }
 
 .nav-items {
-  padding-left: 15px;
-  margin-right: 50px;
+  font-size: 1rem;
+  padding: 20px;
+  margin:0;
+  font-family: hammersmith one;
+  color: var(--color-grey-200);
 }
 
 main {
