@@ -1,38 +1,37 @@
 html {
   --color-blue-400: linear-gradient(45deg, #1d256f, #3e4095);
-  --color-white-100:rgb(249, 234, 234);
+  --color-white-100: rgb(249, 234, 234);
   --color-grey-200: rgb(205, 199, 199);
   --color-red-400: #ff1616;
 }
 
 header {
   display: flex;
-  position:relative;
-  width: 1250px;
-  height:90px;
+  position: relative;
+  width: 78.125rem;
+  height: 5.65rem;
   background: var(--color-blue-400);
 }
 
-nav {
-  margin-right: 147px;
+header img {
+  width: 27rem;
+  height: 5.65rem;
 }
 
 header ul {
   list-style: none;
   display: flex;
   position: relative;
-left: 5rem;
+  left: 5rem;
   padding: 0;
-}
-
-ul {
+  font-size: 1rem;
   text-align: center;
 }
 
 .nav-items {
   font-size: 1rem;
   padding: 20px;
-  margin:0;
+  margin: 0;
   font-family: hammersmith one;
   color: var(--color-grey-200);
 }
@@ -59,7 +58,7 @@ main {
   border-radius: 5px;
   position: relative;
   top: 100px;
-  margin: 80px auto;
+  margin: 80px auto; 
   padding: 30px 0;
 }
 
@@ -74,7 +73,6 @@ main {
   margin-bottom: 30px;
 }
 
-
 #hero-content a {
   font-family: hammersmith one;
   text-decoration: none;
@@ -82,12 +80,12 @@ main {
   color: var(--color-white-100);
   background-color: #ff1616;
   border-radius: 5px;
-  display:inline-block;
+  display: inline-block;
 }
 
 #hero-content a:hover {
-  background: #ff0000; 
-  transform:scale(1.03);
+  background: #ff0000;
+  transform: scale(1.03);
 }
 
 h1 {
@@ -154,12 +152,12 @@ footer {
   margin-top: -120px;
 }
 
-footer h2{
+footer h2 {
   padding-top: 45px;
   text-align: center;
   font-family: Ubuntu;
   text-transform: uppercase;
-  color:var(--color-red-400);
+  color: var(--color-red-400);
 }
 
 footer img {
@@ -168,7 +166,7 @@ footer img {
 }
 
 #footer-images {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
 }
